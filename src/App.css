@@ -1,0 +1,61 @@
+.scale {
+  position: absolute;
+  z-index: 500000;
+  padding: 10px;
+  padding-bottom: 50px;
+  bottom: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.scale > img {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  margin-bottom: .2em;
+  width: 100%;
+  font-weight: lighter;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  width: 450px;
+  height: 50px;
+}
+
+.buttons {
+  position: absolute;
+  z-index: 10000;
+  padding: 10px;
+  padding-bottom: 50px;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.buttons > button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  margin-bottom: .2em;
+  width: 100%;
+  background-color: #333;
+  font-weight: lighter;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.buttons > button > img {
+  width: 75px;
+  height: 75px;
+}
